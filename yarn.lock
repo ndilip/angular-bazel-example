@@ -40,11 +40,13 @@
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@bazel/ibazel/-/ibazel-0.5.0.tgz#76f269bd60d866e2aa9e86b25c456d18fee2ef54"
 
-"@bazel/typescript@0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.17.0.tgz#c99329fbb9c7422bee341669d990ae37a90745fd"
+"@bazel/typescript@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.18.0.tgz#e5b11240a956478bd82dae20286bd4ea21dcee9f"
   dependencies:
     protobufjs "5.0.0"
+    source-map-support "0.5.9"
+    tsickle "0.28.0"
     tsutils "2.20.0"
 
 "@ngrx/store@6.1.0":
@@ -1373,7 +1375,7 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-source-map-support@^0.5.0:
+source-map-support@0.5.9, source-map-support@^0.5.0:
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.9.tgz#41bc953b2534267ea2d605bccfa7bfa3111ced5f"
   dependencies:
@@ -1500,6 +1502,15 @@ tough-cookie@~2.3.3:
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.4.tgz#ec60cee38ac675063ffc97a5c18970578ee83655"
   dependencies:
     punycode "^1.4.1"
+
+tsickle@0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.28.0.tgz#6cd6fa004766c6ad9261b599c83866ee97cc7875"
+  dependencies:
+    minimist "^1.2.0"
+    mkdirp "^0.5.1"
+    source-map "^0.6.0"
+    source-map-support "^0.5.0"
 
 tsickle@^0.32.1:
   version "0.32.1"
